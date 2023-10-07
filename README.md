@@ -22,6 +22,4 @@ The purpose of this challenge was to use the features provided in the dataset to
 <img width="637" alt="image" src="https://github.com/MuhayminRaza/deep-learning-challenge/assets/131730274/cdef241b-f180-4126-9770-ab6587b64327">
 Figure 1: Starter Model
 
-
-
   
