@@ -63,6 +63,22 @@ Figure 4 shows a larger accuracy % - attempts were made at changing the epoches 
 
 In the first model, the accuracy was about 73.17%. In the optimization attempts, the model was no able to reach the 75% threshold despite changes in the layers, neurons and epoches. 
 
+
+
+
+
+The following code was written with the help of a TA and ASKBCS: 
+
+# First hidden layer
+nn.add(tf.keras.layers.Dense(units=hidden_node_1, activation='relu', input_dim = input_features))
+
+# Second hidden layer
+nn.add(tf.keras.layers.Dense(units=hidden_node_2, activation='relu'))
+
+# Output layer
+nn.add(tf.keras.layers.Dense(units=1, activation='sigmoid'))
+
+
 A different model may be needed such as logistic regression as it is a relatively good model for binary classification. 
   
 
